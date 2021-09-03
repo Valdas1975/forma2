@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formos</title>
+</head>
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+    <div>
+        <p>Vardas</p>
+        <input placeholder="Vardas" tabindex="1" name="username" type="text" />
+    </div>
+    <div>
+        <p>Slaptazodis</p>
+        <input tabindex="2" name="userpass" type="password" />
+    </div>
+    <div>
+        <p>Tefonas</p>
+        <input tabindex="3" name="userphone" type="tel" />
+    </div>
+    <div>
+        <p>lytis</p>
+        <div>
+            <input tabindex="4" checked type="radio" name="gender" value="male" /> Vyras
+        </div>
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="female" /> Moterys
+        </div>
+        </div>
+        <div>
+        <p>Turtas</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes" /> Dvyratis
+        </div>
+            <div>
+                <input tabindex="6" type="checkbox" name="car" value="yes" /> Masina
+            </div>
+            <div>
+                <input tabindex="7" disabled type="checkbox" name="house" value="yes" /> Namas
+            </div>
+			</div>
+			<div>
+				<p>Papildoma informacija</p>
+				<textarea tabindex="8" name="text"></textarea>
+			</div>
+			<div>
+				<p>Ikelti nuotrauka</p>
+				<input tabindex="9" type="file" />
+			</div>
+			<div>
+				<p>Mekstama spalva</p>
+				<select tabindex="10" name="color">
+					<option value="red">Raudona</option>
+					<option value="green">Zalia</option>
+					<option selected value="yellow">Geltona</option>
+				</select>
+			</div>
+			<div>
+				<p>Pasirinkimas</p>
+				<button tabindex="11" type="submit">Siusti </button>
+				<button tabindex="12" type="reset">Isvalyti</button>
+			</div>
+		</form>
+</body>
+</html>
